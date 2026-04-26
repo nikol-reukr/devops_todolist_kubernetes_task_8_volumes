@@ -16,7 +16,7 @@ kubectl apply -f .infrastructure/deployment.yml
 
 echo "Deploying services (ClusterIP, Nodeport)..."
 kubectl apply -f .infrastructure/clusterIp.yml
-kubectl apply -f .infrastructure/nodeport.
+kubectl apply -f .infrastructure/nodeport.yml
 
 echo "Deploying HPA..."
 kubectl apply -f .infrastructure/hpa.yml
